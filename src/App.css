@@ -1,0 +1,57 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(5px + 1vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.jumbotrone{
+ margin-top: 5rem;
+ background-color: #414e5c !important;
+}
+
+img{
+  width: 9rem;
+  height: 15rem;
+}
+
+.carousel{
+margin-bottom: 3rem;
+}
+
+.fPimMH{
+  margin-bottom: 6rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
